@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Garamond", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+    url(images/header.jpg);
+}
+
+.nav-links {
+  flex: 1;
+  text-align: left;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: rgba(255, 255, 255, 0.801);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Garamond", sans-serif;
+  font-weight: bold;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #a859f1;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.header {
+  min-height: 50vh;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header h1 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header h2 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 57.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App h2 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.App h3 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 49.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.App h5 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 53.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 17px;
+}
+
+.App input {
+  width: 20%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+  outline: none;
+  left: 50%;
+  background-color: #f0f0f0;
+}
+
+.App button {
+  margin: 5px 0;
+  display: flex;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 12px 34px;
+  font-size: 13px;
+  left: 47.5%;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.App button:hover {
+  border: 1px solid #a859f1;
+  background: #a859f1;
+  transition: 0.5s;
+}
+
+.info h4 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+}
