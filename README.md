@@ -14,7 +14,7 @@ Before running the game, you may need to enter the following command in command 
 
 This is to allow for a smooth installation since some of the file names exceed certain limits.
 
-In the project directory, please type the following commands in the project directory one at a time in order to successfully launch the game:
+In the project directory, please type the following commands one at a time in order to successfully launch the game:
 
 `cd backend`
 `node server.js`
