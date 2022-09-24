@@ -15,7 +15,7 @@ In the project directory, please type the following commands in the project dire
 
 Then open a new bash and type the following commands one at a time:
 
-`cd /frontend`
+`cd frontend`
 `npm start`
 
 Happy Guessing!
