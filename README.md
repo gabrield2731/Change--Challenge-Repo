@@ -9,7 +9,9 @@ This is a Taylor Swift lyric guesser game that uses the a csv file for all the n
 ## Prerequisites
 
 Git should be installed
+
 Node should be installed
+
 npm should be installed
 
 ## Available Scripts
