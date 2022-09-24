@@ -13,9 +13,11 @@ In the project directory, please type the following commands in the project dire
 `cd backend`
 `node server.js`
 
-Then open a new bash and type the following commands one at a time:
+Then open a new command prompt and type the following commands one at a time in the project directory:
 
 `cd frontend`
 `npm start`
+
+In order to exit the game, press Ctrl+C in both command prompts.
 
 Happy Guessing!
