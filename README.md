@@ -6,6 +6,12 @@ Gabriel Dong Email: gabriel.h.dong@vanderbilt.edu
 
 This is a Taylor Swift lyric guesser game that uses the a csv file for all the necessary data
 
+## Prerequisites
+
+Git should be installed
+Node should be installed
+npm should be installed
+
 ## Available Scripts
 
 Before running the game, you may need to enter the following command in command prompt as an administrator:
