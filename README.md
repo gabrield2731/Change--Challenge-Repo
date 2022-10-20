@@ -1,4 +1,4 @@
-# ChangePP-Challenge-Repo
+# Taylor Swift Lyric Guesser
 
 Gabriel Dong Email: gabriel.h.dong@vanderbilt.edu
 
